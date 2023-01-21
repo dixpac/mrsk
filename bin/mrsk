@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
 require "mrsk/cli"
+require 'debug'
 
 Mrsk::Cli::Main.start(ARGV)
